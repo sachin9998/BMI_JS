@@ -1,0 +1,67 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+  background: linear-gradient(90deg, rgb(252, 170, 19), rgb(230, 230, 132));
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  /* flex-direction: column; */
+}
+
+.container {
+  padding: 50px 30px;
+
+  width:400px;
+  background-color: white;
+  border-radius: 5px;
+  /* display: flex;
+    flex-direction: column; */
+}
+
+h1 {
+  text-align: center;
+}
+
+.inputbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+
+  margin: 20px 0px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 0.5px solid grey;
+  border-radius: 5px;
+  /* border: none; */
+}
+
+#calculateBtn {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: rgb(251, 112, 5);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.resultBox {
+    padding-top: 20px;
+    text-align: center;
+}
